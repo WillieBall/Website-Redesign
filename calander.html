@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Yale Art Calander</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <style>
+        div h2 {
+            color: #0f4d92;
+        }
+        
+        p {
+            color: #0f4d92;
+            margin-left: 20px;
+        }
+        
+        #leftcal {
+            display: block;
+            float: left;
+            width: 50%;
+        }
+        
+        #rightcal {
+            display: block;
+            float: right;
+            width: 50%;
+        }
+        
+        .underline {
+            text-decoration: underline;
+        }
+        
+        #ical {
+            margin: 0 auto;
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Yale School of Art logo"/></a>
+    </header>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">About
+                <i class="fa fa-caret-down"></i>        
+            </button>
+            <div class="dropdown-content">
+                <a href="schoolinfo/courses.html">Courses</a>
+                <a href="schoolinfo/alumni.html">Alumni</a>
+                <a href="schoolinfo/currentstudents.html">Current Students</a>
+                <a href="schoolinfo/facilities.html">Facilities</a>
+                <a href="schoolinfo/faculty.html">Faculty</a>
+                <a href="schoolinfo/financialaid.html">Financial Aid</a>
+                <a href="schoolinfo/staff.html">Staff</a>
+                <a href="schoolinfo/studyareas.html">Study Areas</a>
+                <a href="schoolinfo/summerprograms.html">Summer Programs</a>
+                <a href="schoolinfo/undergraduate.html">Undergraduate</a>
+            </div>
+        </div>
+        <a href="calander.html">Calander</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visiting.html">Visiting</a>
+        <div class="dropdown">
+            <button class="dropbtn">Admissions
+                <i class="fa fa-caret-down"></i>        
+            </button>
+            <div class="dropdown-content">
+                <a href="admission/tuition.html">Tuition</a>
+                <a href="admission/requirements.html">Requirements</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h2>Academic Calander</h2>
+        <div id='leftcal'>
+            <h2>Fall 2018</h2>
+            <p><span class='underline'>August 27:</span> Orientation for all new students.</p>
+            <p><span class='underline'>August 28:</span> Registration for all students.</p>
+            <p><span class='underline'>August 29:</span> <em>Fall-term calsses being, 8:25am.</em></p>
+            <p><span class='underline'>September 3:</span> Labor Day. No classes, offices closed.</p>
+            <p><span class='underline'>September 17:</span> Last day to add course with permission of registrar.</p>
+            <p><span class='underline'>October 17:</span> October recess beings, 8:25am.</p>
+            <p><span class='underline'>October 22:</span> Classes resume.</p>
+            <p><span class='underline'>October 26:</span> Last day to drop a course with permission of instructor and registrar. Midterm grades due, 12:00pm.</p>
+            <p><span class='underline'>November 15:</span> <em>Annual All-School Open House.</em></p>
+            <p><span class='underline'>November 16:</span> November recess begin, 5:30pm.</p>
+            <p><span class='underline'>December 7:</span> Last day to withdraw from a course with permission of instructor and registrar. <em>Fall-term classes end, 5:30.</em> Reading period begins.</p>
+            <p><span class='underline'>December 13:</span> Critiques and examinations being, 9:00am.</p>
+            <p><span class='underline'>December 19:</span> Critiques and examinations end, 5:30pm. Winter recess beings.</p>
+        </div>
+        <div id='rightcal'>
+            <h2>Spring 2019</h2>
+            <p><span class='underline'>January 4:</span> Closing date for submission of online applications for Fall 2019 admission.</p>
+            <p><span class='underline'>January 14:</span> Registration for all students being. <em>Spring-term Academic classes being.</em></p>
+            <p><span class='underline'>January 15:</span><em>Spring-term Graduate and Undergraduate School of Arts classes being, 8:25am.</em></p>
+            <p><span class='underline'>January 18:</span><em> Friday classes do not meet; Monday classes meet instead.</em></p>
+            <p><span class='underline'>January 21:</span> Martin Luther King Day; offices closed.</p>
+            <p><span class='underline'>February 4:</span> Last day to add a course with permission of the registrar.</p>
+            <p><span class='underline'>March 8:</span> Last day to drop a course with permission of the registrar. Midterm grades due, 12:00pm. Spring recess begin, 5:30pm.</p>
+            <p><span class='underline'>March 25:</span> Classes resume, 8:25am.</p>
+            <p><span class='underline'>April 26:</span> Last day to withdraw from a course with permission of instructor and registrar. <em>Spring-term classes end, 5:30pm.</em></p>
+            <p><span class='underline'>May 2:</span> Critiques and examinations being, 9:00am.</p>
+            <p><span class='underline'>May 8:</span> Critiques and examinations end, 5:30pm. Summer recess begins.</p>
+            <p><span class='underline'>May 20:</span><em> University Commencement</em></p>
+            <p>&nbsp;</p>
+        </div>
+    </main>
+    <p id='ical'>Calanader subscribtion: <a href='webcal://art.yale.edu/ical/Web.ics' target="_blank">webcal://art.yale.edu/ical/Web.ics</a></p>
+    <footer>
+        <i>&copy;
+            <script>document.write(new Date().getFullYear());</script>, 
+            art.yale.edu All Rights Reserved.</i>
+        <a href="sitemap.html">Sitemap</a>
+    </footer>
+</body>
+</html>

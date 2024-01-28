@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Yale Art Visiting</title>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <style>
+        div h2 {
+            text-decoration: underline;
+        }
+        
+        #right {
+            float: right;
+            width: 40%;
+        }
+        
+        #left {
+            float: left;
+            width: 40%;
+        }
+        
+        div p {
+            margin-left: 10px;
+        }
+        
+        .mapouter{
+            position:relative;
+            text-align:right;
+            height:500px;
+            width:600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height:500px;
+            width:600px;
+        }
+        
+        iframe {
+            border: 0px;
+        }
+        
+        #title {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="Yale School of Art" style="font-size: 100px; text-align: center; color: #0f4d92;"/></a>
+    </header>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">About
+                <i class="fa fa-caret-down"></i>        
+            </button>
+            <div class="dropdown-content">
+                <a href="schoolinfo/courses.html">Courses</a>
+                <a href="schoolinfo/alumni.html">Alumni</a>
+                <a href="schoolinfo/currentstudents.html">Current Students</a>
+                <a href="schoolinfo/facilities.html">Facilities</a>
+                <a href="schoolinfo/faculty.html">Faculty</a>
+                <a href="schoolinfo/financialaid.html">Financial Aid</a>
+                <a href="schoolinfo/staff.html">Staff</a>
+                <a href="schoolinfo/studyareas.html">Study Areas</a>
+                <a href="schoolinfo/summerprograms.html">Summer Programs</a>
+                <a href="schoolinfo/undergraduate.html">Undergraduate</a>
+            </div>
+        </div>
+        <a href="calander.html">Calander</a>
+        <a href="contact.html">Contact</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="visiting.html">Visiting</a>
+        <div class="dropdown">
+            <button class="dropbtn">Admissions
+                <i class="fa fa-caret-down"></i>        
+            </button>
+            <div class="dropdown-content">
+                <a href="admission/tuition.html">Tuition</a>
+                <a href="admission/requirements.html">Requirements</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <h2 id="title">Visiting Yale School of Art</h2>
+        <div id="left">
+            <div id="directions">
+                <h2>Travel Directions</h2>
+                <h3>Address:</h3>
+                <p>Holcombe T. Green, Jr. Hall, 1156 Chapel Street, New Haven 06511</p>
+                <h3>Mailing Address:</h3>
+                <p>P.O.Box 208339, New Haven, CT 06520-8339</p>
+                <p><a href="http://map.yale.edu/map/#building:GRN" target="_blank">Campus Map</a></p>
+                <h3>Air Travel:</h3>
+                <p><a href="http://www.flytweed.com/" target="_blank">Tweed New Haven Airport (HVN)</a> is the closest airport to Yale University. This airport is serviced by American Eagle (subsidiary of American Airlines) and seasonally by Shoreline Aviation. Other airports near Yale University are <a href="https://www.jfkairport.com/" target="_blank">JFK International Airport</a>, <a href="https://www.laguardiaairport.com/" target="_blank">LaGuardia Airport</a>, and <a href="https://www.newarkairport.com/" target="_blank">Newark Liberty International Airport.</a></p>
+                <h3>Trains:</h3>
+                <p>There is an hourly train from the Grand Central Station in New York every day operated by <a href="http://as0.mta.info/mnr/schedules/sched_form.cfm">Metro-North</a>. <a href="http://amtrak.com/">Amtrak</a> also has daily routes from Washinton D.C., Boston, or New York. </p>
+                <h3>Map:</h3>
+                <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Yale%20Universi&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe></div></div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="accommodations">
+                <h2>Accommodations</h2>
+                <ul>
+                    <li><p><a href="http://www.studyatyale.com/" target="_blank">The Study at Yale</a> $$$$ - 1157 Chapel Street <a href="tel:2035033900">203-503-3900</a></p></li>
+                    <li><p><a href="http://www.omnihotels.com/hotels/new-haven-yale" target="_blank">Omni New Haven Hotel</a> $$$ - 155 Temple Street <a href="tel:2037726664">203-772-6664</a></p></li>
+                    <li><p><a href="http://www.newhavenhotel.com/" target="_blank">New Haven Hotel</a> $$$ - 229 George Street <a href="tel:8006446835">800-644-6835</a></p></li>
+                    <li><p><a href="http://www.courtyardmarriottyale.com/" target="_blank">Courtyard by Marriott</a> $$ - 30 Whalley Avenue <a href="tel:2037776221">203-777-6221</a></p></li>
+                </ul>
+            </div>
+            <div id="oppurtunities">
+                <h2>Visiting Opputunities</h2>
+                <h3>Open Houses</h3>
+                <p>Yale School of Art will have an open house on November 15, 2018 which you must <a href="https://apply.art.yale.edu/register/OpenHouse2018" target="_blank">register</a> for. If you are unable to be there for the open house, you can <a href="https://apply.art.yale.edu/register/VirtualOpenHouse2018" target="_blank">register for the virtual open house</a></p>
+            </div>
+            <div id="tours">
+                <h2>Guided Tours</h2>
+                <p>Yale School of Art offers guided tours every day.</p>
+                <ul>
+                    <li><p>Weekdays: 10:30am & 2pm</p></li>
+                    <li><p>Weekends: 1:30pm</p></li>
+                </ul>
+            </div>
+            <div id="prospective">
+                <h2>Undergraduate Prospective Students</h2>
+                <p>Please contact the Office of the Director of Undergraduate Studies in Art at <a href="mailto:art.dus@yale.edu">art.dus@yale.edu</a> or <a href="tel:2034322600">203-432-2600</a> to arrange in advance for an informative student-led tour of the art school at regular business hours during the school year (Monday through Friday 8:00 – 4:00 | September – May).</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <i>&copy;
+            <script>document.write(new Date().getFullYear());</script>, 
+            art.yale.edu All Rights Reserved.</i>
+        <a href="sitemap.html">Sitemap</a>
+    </footer>
+</body>
+</html>
