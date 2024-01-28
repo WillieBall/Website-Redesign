@@ -1,0 +1,1 @@
+A redsign for the Yale School Of Art website. The website is located at https://www.art.yale.edu/. The redesign was a project to make a look better than it does now. The official site is designed very poorly with bad layouts and unintuitive pages. The project was a reimagining of what it could look like instead.
